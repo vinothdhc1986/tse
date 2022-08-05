@@ -1,0 +1,68 @@
+.h-screen-login {
+	height: 100vh;
+	background: url('../../asset/images/background.png') no-repeat center center fixed;
+
+	.login-logo {
+		background: url('../../asset/images/DGN-logo.svg');
+		background-size: cover;
+		width: 34%;
+		height: 41px;
+	}
+	.controls {
+		background-color: #f2f5f4;
+		padding-top: 25px;
+		border-radius: 10px;
+	}
+	.sign-in {
+		background-color: #46906b;
+		font-size: 14px;
+		border-radius: 4px;
+	}
+	.login-form {
+		margin-right: 100px;
+		width: 400px;
+		padding: 20px;
+	}
+	.forgotPasswordBtn {
+		color: #46906b;
+		font-size: 13px;
+	}
+	ul {
+		list-style-type: none;
+		margin-bottom: 10px;
+
+		li {
+			display: inline;
+
+			a {
+				font-size: 14px;
+			}
+		}
+
+		.TOC {
+			color: #42a5f5;
+		}
+	}
+
+	.input-control {
+		padding: 10px 10px 10px 5px;
+		border: 1px solid #ccc;
+	}
+
+	.login-copy-right {
+		font-size: 11px;
+		margin-top: 10px;
+		color:#505050;
+
+		a {
+			color: #337ab7;
+		}
+	}
+}
+.invalid-feedback {
+	width: 100%;
+	margin-top: .25rem;
+	font-size: 80%;
+	color: #dc3545;
+}
+

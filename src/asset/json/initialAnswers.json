@@ -1,0 +1,45 @@
+[
+    {
+        "PageNo":1,			
+        "ICSAnswers":[
+            {
+                "QuestionID":"company_name",									
+                "Answer":""
+            },
+            {
+                "QuestionID":"company_add",									
+                "Answer":""
+            },
+            {
+                "QuestionID":"company_phone",
+                "Answer":""
+            },
+            {
+                "QuestionID": "contact_inter",
+                "Answer": ""
+            },
+            {
+                "QuestionID": "company_location",
+                "AnswersID": []
+            },
+            {
+                "QuestionID": "support_interface",
+                "AnswersID": []
+            }
+            
+        ]
+    },
+    {
+        "PageNo":2,			
+        "ICSAnswers":[
+            {
+                "QuestionID":"term_ca",									
+                "Answer": ""
+            },
+            {
+                "QuestionID": "company_add",
+                "Answer": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+@import './mixins.scss';
+@import './vars.scss';
+
+@font-face {
+	font-family: 'Segoe UI Semibold';
+	src: local("segoe-ui-semibold"), url('../asset/fonts/Segoe UI Semibold.woff') format("woff");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Segoe UI Bold';
+	font-weight: 700;
+	src: local('Segoe UI Bold'), url('../asset/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Segoe UI"';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Segoe UI"'), url('../asset/fonts/Segoe UI.woff') format('woff');
+}
+
+body {
+	background-color: $body-bg-color;
+}
+
+#app {
+	// display: flex;
+}
+.primary-button {
+	@extend %button-shape;
+	background-color: $primary-color;
+	color: $primary-text-color;
+}
+
+.disable-element {
+	pointer-events: none;
+	opacity: 0.5;
+}
+.transparent-button {
+	color: $primary-color;
+	font-weight: bold;
+}
+.layout-container {
+    width: calc(100% - 24px);
+}
+
+.main-container {
+	margin: 24px 24px 0 24px;
+	width: calc(100% - 24px);
+}
+.select-text {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #a5a5a5;
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  .pass {
+    background-color: #8bab58;
+  }
+   
+  .fail {
+    background-color: #d13f3f;
+  }
+
+  .pending {
+    background-color: #e8dc42;
+  }
+
+.formErrors {
+	color: red;
+}
+
+.create-project-input {
+	width: 300px;
+	border-radius: 4px;
+	padding: 0 10px;
+	font-size: 14px;
+	background-color: $body-bg-color;
+	border: none;
+	outline: none;
+	margin-left: 24px;
+}
+
+.tsec-project-question {
+
+}
+
+.details-input {
+	background-color: $body-bg-color;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	width: 100%;
+	margin-left: 12px;
+}
+
+.upload {
+	width: 95%;
+}
+
+.host {
+	width: 75%;
+}
+
+.project-detail {
+	width: 90%;
+	border-radius: 4px;
+	padding: 0 10px;
+	font-size: 14px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	margin-left: 24px;
+	padding-bottom: 24px;
+}
+
+.create-project-question {
+	height: 60px;
+	background-color: white;
+}
+
+.tsec-project-question {
+	height: 60px;
+	background-color: white;
+}
+
+button:disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}

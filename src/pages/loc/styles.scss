@@ -1,0 +1,14 @@
+.loc-close {
+    display: flex;
+    justify-content: flex-end;
+
+    .close-btn {
+        width: 24px;
+        height: 24px;
+        background: #fff;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+}

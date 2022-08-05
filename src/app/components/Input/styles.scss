@@ -1,0 +1,75 @@
+@import '../../../scss/vars.scss';
+
+.input-container {
+	textarea {
+		height: 42px;
+	}
+
+	input[type="radio"],
+	input[type="checkbox"] {
+		height: 24px;
+		width: 24px;
+		vertical-align: middle;
+	}
+
+	input[type="text"],
+	input[type="number"] {
+		height: 30px;
+	}
+
+	input[type='text']:focus {
+		border: 1px solid $primary-color;
+		background-color: #fff;
+	}
+	input[type='radio']:after {
+		border-radius: 18px;
+		top: 2.5px;
+		left: 2.5px;
+		content: '';
+		border: none;
+	}
+
+	input[type='radio']:checked:after {
+		width: 18px;
+		height: 18px;
+		top: 2.5px;
+		left: 2.5px;
+		position: relative;
+		background-color: $primary-color;
+		display: inline-block;
+		border: 3px solid $active-bg-color;
+	}
+
+	.cb {
+		display: none;
+	}
+	.checkbox-container {
+		label {
+			display: inline-block;
+			position: relative;
+			padding-left: 40px;
+			font-size: 16px;
+			line-height: 20px;
+			margin: 5px;
+		}
+		label:before {
+			line-height: 20px;
+			content: "";
+			display: inline-block;
+			height: 24px;
+			width: 24px;
+			vertical-align: middle;
+			position: absolute;
+			left: 0;
+			background-color: $body-bg-color;
+			border: 1px solid $primary-color;
+		}
+		input[type=checkbox]:checked + label:before {
+			content: "\2713";
+			color: $primary-color;
+			text-align: center;
+			line-height: 24px;
+			font-size: 18px;
+		}
+	}
+}

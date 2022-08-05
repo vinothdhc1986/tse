@@ -1,0 +1,40 @@
+@import '../../../scss/vars.scss';
+
+.vt-list {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #8892b0;
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    height: 48  px;
+    width: 100%;
+    text-align: left;
+    padding: 8px 20px;
+    color:$primary-color;
+    cursor: pointer;
+  }
+  .toggle-test-info-btn {
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: $primary-color;
+  }
+  
+  .vt-list{
+    background-color: #fff;
+    border: 1px solid $body-bg-color;
+  }
+  
+  .vt-list:hover,
+  .vt-list:active,
+  .vt-list:focus {
+    background-color: $active-bg-color;
+    outline: 0px;
+  }
+
+  .selected-list {
+    background-color: $active-bg-color;
+  }
+  

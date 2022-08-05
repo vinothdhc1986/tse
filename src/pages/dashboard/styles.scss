@@ -1,0 +1,66 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/vars.scss';
+
+.dashboard-container {
+	.table-container {
+		width: 50%;
+		
+		table {
+			width: 93%;
+			
+		}
+	}
+	.tot-proj {
+		@extend %button-shape;
+		background-color: #fff;
+	}
+
+	.dashboard-header {
+		width: 50%;
+		margin-top:16px;
+	}
+
+	.toggle-activeTab {
+		color: #fff;
+		border-radius: 8px;
+		padding: 4px 8px;
+		background-color: $primary-color;
+	  }
+
+}
+
+.selected {
+    background-color: $active-bg-color;
+}
+
+.tser {
+	color: $primary-color;
+	font-weight: bold;
+	font-size: 14px;
+}
+.status-dash {
+	width: 50%;
+}
+
+@media screen and (max-width: 1366px) {
+	.dashboard-container {
+		.table-container {			
+			table {
+				thead {
+					tr {
+						th {
+							font-size: 12px;
+						}
+					}
+				}
+				tbody {
+					tr {
+						td {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

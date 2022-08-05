@@ -1,0 +1,109 @@
+@import '../../../scss/vars.scss';
+
+.project-summary-content-container {
+  .text {
+		color: #277A53;
+  }
+
+
+.test-case {
+	background-color: #fff;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	padding: 8px;
+	.title {
+		font-size: 14px;
+	}
+	.desc {
+		font-size: 14px;
+	}
+}
+
+.toggle-activeTab {
+	color: #000;
+	border-bottom: 2px solid #62a062;
+	// background-color: $primary-color;
+  }
+
+  .tav-view-content {
+	  border-radius: 10px;
+	  padding: 8px;
+	  margin:10px -6px;
+	  background-color: #fff;
+  }
+}
+.input-content input[type=checkbox]:checked + label:before {
+	content: "\2713";
+	color: $primary-color;
+	text-align: center;
+	line-height: 24px;
+	font-size: 18px;
+}	
+
+.cb {
+	display: none;
+}
+.input-content {
+	label {
+		display: inline-block;
+		position: relative;
+		padding-left: 40px;
+		font-size: 16px;
+		line-height: 16px;
+		margin: 5px;
+	}
+	label:before {
+		line-height: 20px;
+		content: "";
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		vertical-align: middle;
+		position: absolute;
+		left: 0;
+		background-color: $body-bg-color;
+		border: 1px solid $primary-color;
+		border-radius: 2px;
+	}
+	input[type=checkbox]:checked + label:before {
+		content: "\2713";
+		color: $primary-color;
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+	}
+}
+.cards {
+	height: 100px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+
+.read-icon {
+	font-size: 30px;
+}
+
+.file-input {
+	cursor: pointer;
+	padding: 20px 0 0 0;
+	height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url('../../../asset/images/attachment.png') center center no-repeat;
+	background-size: 20px 20px;
+	width: 20px;
+	margin-top: 5px;
+}
+
+.b-bottom {
+	border-bottom: 1px solid #f5f6f6 ;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.selected {
+    background-color: #D3E8DE;
+}

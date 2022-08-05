@@ -1,0 +1,20 @@
+.header {
+	height:70px;
+	background: white;
+	top: 0;
+	width:calc(100% - 24px);
+	border-bottom: '1px solid #d3d3d3';
+	box-shadow: '-1px 3px 0px -1px rgba(211,211,211,0.75)';
+
+	.menu-icon {
+		cursor: pointer;
+	}
+
+	.logo {
+		img{
+			width: 192px;
+			height: 33px;
+		}
+	}
+}
+

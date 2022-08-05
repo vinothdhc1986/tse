@@ -1,0 +1,106 @@
+.tree-container {
+    margin-left:40px;
+    .tag-key {
+        margin-left: 12px;
+    }
+    .expand {
+        // margin-left: 8px;
+        padding-left: 20px;
+        border-left: 1px solid #919191;
+    }
+    .expand3 {
+        margin-left: 20px;
+        padding-left: 20px;
+        margin-top: -11px;
+        border-left: 1px solid #919191;
+    }
+    .expand2 {
+        margin-left: -21px;
+        padding-left: 20px;
+        border-left: 1px solid #919191;
+    }
+    .root-cmd {
+        display: inline-block !important;
+    }
+    .no-child {
+        margin-left: 26px !important;
+    }
+    .line {
+        border-top: 1px solid #919191;
+        margin-left: -42px;
+        margin-top: -12px;
+        display: table-caption;
+    }
+    .line2 {
+        border-top: 1px solid #919191;
+        width: 30px;
+        margin-left: -20px;
+        margin-top: 14px;
+        display: inline-block;
+    }
+    .line3 {
+        border-top: 1px solid #919191;
+        width: 30px;
+        margin-left: -20px;
+        margin-top: 14px;
+        display: inline-block;
+    }
+    .line4 {
+        border-top: 1px solid #919191;
+        width: 77px;
+        margin-left: -20px;
+        // margin-top: 14px;
+        display: inline-block;
+    }
+    .tag {
+        // margin-left:45px;
+    }
+    .cmd-2 {
+        margin-left:21px;
+        display: inline-block;
+    }
+    .cmd-2 + span {
+        margin-left:33px;
+    }
+    .cmd-3{
+        margin-left:21px;
+        display: inline-block; 
+    }
+
+    .cmd-3 + span {
+        margin-left:23px;
+    }
+    .cmd-4{
+        margin-left:21px;
+        display: inline-block;
+    }
+
+    .cmd-4 + span {
+        margin-left:16px;
+    }
+    .no-child {
+        margin-left: 25px;
+    }
+    .inline-flex {
+        display: inline-flex;
+        svg {
+            margin-top: 6px;
+        }
+    }
+
+    .node-text {
+        margin-left: 16px;
+        display: inline-block;
+    }
+
+    .node-value{
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .no-response {
+        margin-left: 14px;
+    }
+    .resonse {
+        margin-left: 14px;;
+    }
+}

@@ -1,0 +1,32 @@
+﻿@import '../../scss/mixins.scss';
+@import '../../scss/vars.scss';
+
+.users-container {
+	table {
+		width: 100%;
+	}
+	.tot-proj {
+		@extend %button-shape;
+		background-color: #fff;
+	}
+}
+
+.selected {
+	background-color: $active-bg-color;
+}
+
+.new-user-container {
+	.user-input {
+		border-radius: 4px;
+		width: 300px;
+		padding: 0 10px;
+		font-size: 14px;
+		border: none;
+		outline: none;
+	}
+
+	.select-box {
+        width: 300px;
+        border: 1px solid #ccd1cf;
+    }
+}

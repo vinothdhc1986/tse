@@ -1,0 +1,152 @@
+[
+	{ 
+		"PageNo" :1,
+		"GroupNo":"1",
+		"Prompt":"Vendor Details",
+		"Help":"Please fill the answer without incomplete",
+		"Mode":[],
+		"Question" :
+		[
+			{
+				"QuestionName":"company_name",
+				"Prompt":"What is company name?",
+				"Help":"your's company name",
+				"Type":"1",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"company_add",
+				"Prompt":"What is company address?",
+				"Help":"your's company address",
+				"Type":"5",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"true",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"company_phone",
+				"Prompt":"What is company phone numbhathat is company phone number hat is company phone number hat is company phone number is company phone number hat is company phone number er?",
+				"Help":"What is company phone numbhathat is company phone What is company phone numbhathat is company phone number hat is company p What is company phone numbhathat is company phone number hat is company p number hat is company phone number hat is company phone number is company phone number hat is company phone number erddd?",
+				"Type":"2",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"contact_inter",
+				"Prompt":"Are you supporting contact interface?",
+				"Help":"your's company name",
+				"Type":"0",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"company_location",
+				"Prompt":"please select your company location?",
+				"Help":"your's company location",
+				"Type":"3",
+				"Modes":"",
+				"Alloweds":
+					[
+						{
+							"id":"11",
+							"value":"Canada",
+							"IsApplicable":"true"
+						},
+						{
+							"id":"12",
+							"value":"USA",
+							"IsApplicable":"true"
+						},
+						{
+							"id":"13",
+							"value":"UK",
+							"IsApplicable":"true"
+						},
+						{
+							"id":"14",
+							"value":"India",
+							"IsApplicable":"true"
+						}
+					],
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"support_interface",
+				"Prompt":"Please select the interface your supporting?",
+				"Help":"your's supporting interface",
+				"Type":"4",
+				"Modes":"",
+				"Alloweds":
+					[
+						{
+							"id":"id_1234",
+							"value":"Contact",
+							"IsApplicable":"true"
+						},
+						{
+							"id":"id_1235",
+							"value":"Contactless",
+							"IsApplicable":"true"
+						}
+					],
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			}
+		]
+	},
+	{ 
+		"PageNo" :2,
+		"GroupNo":"2",
+		"Prompt":"Terminal Cabilities",
+		"Help":"Please fill the answer without incomplete",
+		"Mode":[],
+		"Question" :
+		[
+			{
+				"QuestionName":"term_ca",
+				"Prompt":"Is support CDA?",
+				"Help":"<h1>ODA : Offline data authentication, this fields support HTML text that should be shown in the help</h1>",
+				"Type":"0",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"false",
+				"IsApplicable":"true"
+			},
+			{
+				"QuestionName":"company_add",
+				"Prompt":"Is support SDA?",
+				"Help":"",
+				"Type":"0",
+				"Modes":"",
+				"Alloweds":null,
+				"IsCommon":"false",
+				"IsRegression":"false",
+				"IsOptional":"true",
+				"IsApplicable":"false"
+			}
+		]
+	}
+]

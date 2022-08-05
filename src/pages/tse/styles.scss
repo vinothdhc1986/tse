@@ -1,0 +1,58 @@
+.questionaries-header {
+	.create-questionaire-question {
+		height: 100px;
+		background-color: white;
+		border-radius: 10px;
+	}
+	.question-select-box {
+		width: 300px;
+		height: 14px;
+		border: 1px solid #ccd1cf;
+	}
+	.create-project-question {
+		width: 600px;
+		border-radius: 4px;
+		font-size: 12px;
+		background-color: #f2f5f4;
+		border: none;
+		outline: none;
+	}
+	.create-question-input {
+		width: 300px;
+		border-radius: 4px;
+		padding: 0 10px;
+		font-size: 14px;
+		background-color: #f2f5f4;
+		border: none;
+		outline: none;
+	}
+	.radio-input {
+		display: inline-block;
+		margin-right: 16px;
+	}
+
+	.question-input-checkbox {
+		display: inline-block;
+		margin-right: 26px;
+		label {
+			margin-bottom: 16px;
+		}
+	}
+	svg{
+		display: inline;
+	}
+}
+// #registerTip {
+// 	background-color: white;
+// 	color: black;
+// }
+
+.tooltip-container {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	// display: flex;
+	// align-items: center;
+}
+.__react_component_tooltip {
+	left: 3.5em !important;
+}

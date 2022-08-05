@@ -1,0 +1,30 @@
+[{
+	"UserID": "admin1.@discover.com",
+	"EmailID": "admin1.@discover.com",
+	"CompanyID": "discover",
+	"CreatedBy": "sales1@payhuddle.com",
+	"CreatedOn": "2022-03-02 12-05",
+	"Role": 1,
+	"Status": 1,
+	"UpdateOn": "2022-03-02 12-05",
+	"UpdateBy": "string",
+	"UserName": "Admin1",
+	"PhoneNumber": "string",
+	"LastActivityOn": "string",
+	"Subscriptions": []
+},
+{
+	"UserID": "admin2.@discover.com",
+	"EmailID": "admin2.@discover.com",
+	"CompanyID": "discover",
+	"CreatedBy": "sales1@payhuddle.com",
+	"CreatedOn": "2022-03-02 12-05",
+	"Role": 2,
+	"Status": 1,
+	"UpdateOn": "2022-03-02 12-05",
+	"UpdateBy": "string",
+	"UserName": "Admin2",
+	"PhoneNumber": "string",
+	"LastActivityOn": "string",
+	"Subscriptions": []
+}]

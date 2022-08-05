@@ -1,0 +1,636 @@
+[
+  {
+    "testCaseID": "DGN_L3_02",
+    "history": null,
+    "cards": [],
+    "status": "fail", 
+    "objective": "To verify1 that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless1 Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+	
+  },
+  {
+    "testCaseID": "DGN_L3_01",
+    "history": null,
+    "status": "pass", 
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_1",
+    "history": null,
+    "status": "pending", 
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_2",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_3",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_4",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_5",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_6",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_7",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_8",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_21",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_22",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_23",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_24",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  },
+  {
+    "testCaseID": "DGN_L3_25",
+    "history": null,
+    "cards": [],
+    "objective": "To verify that the terminal is able to perform a transaction with a Contactless Card.<BR>- To verify that the terminal is able to perform a transaction with Online PIN (if supported).<BR>- To verify that the terminal is able to perform a transaction with Signature (if supported).",
+    "configuration": null,
+    "applicable": "Contactless Interface in scope<BR>Device is not an inspection device",
+    "notes": null,
+    "context": null,
+    "actions": [
+      "Tap test card 01 for the approptiate network or the probe to the reader and follow the instructions displayed on the screen. Use DN 01 for the Discover and PULSE Network , DCI 01 for the Diners Club Network.",
+      "If terminal is not an AFD and device is not used in Transit &cl Enter a transaction amount containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)",
+      "If terminal is not an AFD and terminal allows for amounts above the CVM Required Limit and device is not used in Transit &cl Make sure the transaction amount is the lowest amount possible above the CVM Required limit",
+      "If terminal is an AFD &cl Please note that an AFD is supposed to use an amount for the pre-authorization of $1.00 , 50.00 or 75.00",
+      "If device is not used in Transit &cl If prompted for a PIN , enter 1234",
+      "If terminal is an AFD &cl Enter a final amount (completion amount) containing the pattern *36* (i.e. 0.36 , 3.60 , 36.00 etc)"
+    ],
+    "requirements": [
+      {
+        "document": "EMVCO framework",
+        "section": "section 1.1"
+      },
+	  {
+        "document": "EMVCO framework",
+        "section": "section 1.2"
+      }
+    ],
+    "attributes": [],
+    "isRegression": true,
+    "UserPassCriterias": [
+		"The terminal print receipt",
+		"The terminal ask cardholder to enter the PIN"
+	],
+	"CardPassCriterias": [
+		"The terminal send PPSE command",
+		"The terminal performed the online PIN"
+	],
+	"HostPassCriterias": [
+		"The terminal send authorization request",
+		"The terminal reciver authorization response"
+	]
+  }
+]

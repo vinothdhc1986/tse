@@ -1,0 +1,32 @@
+.loading-green {
+    width: 90%;
+    height: 20px;
+    border: 1px solid #e6e6e6;
+}
+
+.loading-green::after {
+   width: 55px;
+}
+
+.loading-wrapper {
+   height: 30vh;
+   background-color: white;
+   width: 360px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+   position: relative;
+   flex-direction: column;
+   padding-bottom: 20px;
+
+}
+.loading-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+.loading-text {
+   padding-bottom: 20px;
+}

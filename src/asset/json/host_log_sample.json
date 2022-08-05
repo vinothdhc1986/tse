@@ -1,0 +1,317 @@
+{
+    "messages":
+	[
+		{	
+        "mti":"0100",
+		"stream":"",
+		"status":"",
+		"value":"GF0F1F0F0F23C4601A8E186080000000000000002F1F9F6F7F9F9F9F9F8F9F0F0F0F0F0F2F0F0F0F1F0F0F9F0F0F0F0F0F0F0F0F0F0F0F0F1F3F0F0F0F7F0F1F1F1F1F7F0F7F0F0F0F0F0F3F1F1F1F7F0F7F0F7F0F1F2F5F1F2F5F9F9F9F0F5F1F0F1F3F0F6F0F1F2F3F4F5F0F6F0F2F2F0F2F0F3F6F6F7F9F9F9F9F8F9F0F0F0F0F0F2F0F0F0F1F0C4F2F5F1F2F6F2F0F0F6F2F9F3F0F4F2F3F0F0F0F0F0F0F0F0F0F8F2F2F0F2F0F0F1F1F0F1F1F2F3F4F5F6F7F8F9F1F2F3F4F5F6C9C3C340D7D6E240E385A2A34040404040404040404040D7819989A2404040404040404040C6D9C1F0F1F0D9F6F1F0F5F1F1F0F0F0F9F7F8F0F2F0F0F0F4F0F9F7F8C4F0F0F0F0F0F0F0F0F0F1F0F0F1F4F05F2A020978820230008407A0000000043060950500008000009A031507019C01099F02060000000013009F03060000000001009F090200029F10120210A0800F220000000000000000000000FF9F1A0200569F1E0830323030313130319F26083777C3B0335FF8F69F2701809F33038020C89F34033F00019F3501229F360200279F3704027273299F530150F0F1F9F0F0F0F0F0F0F0F0F0F0F5F0F0F2F5F0F0F0F0F0F0F87FC5D4E5D9C5C67F",
+		"messageType":"SEND",
+		"elements":
+			[
+				{
+					"hostId":"MTI",
+					"value":"0100",
+					"type":"",
+					"description":"Message Type Identifier1",
+					"subElements":[]
+				},
+				{
+					"hostId":"BitMap",
+					"value":"F23C4641A8E19208",
+					"type":"",
+					"description":"Bit Map",
+					"subElements":[]
+				},
+				{
+					"hostId":"BitMap",
+					"value":"0000000000000002",
+					"type":"",
+					"description":"Bit Map",
+					"subElements":[]
+				},
+				{
+					"hostId":"002",
+					"value":"6799978900000020023",
+					"type":"",
+					"description":"Primary Account Number (PAN)",
+					"subElements":[]
+				},
+				{
+					"hostId":"003",
+					"value":"010000",
+					"type":"",
+					"description":"Processing Code",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"02",
+							"type":"",
+							"description":"Cardholder Transaction Type Code",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"11",
+							"type":"",
+							"description":"Cardholder \"From\" Account Type Code",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.003",
+							"value":"00",
+							"type":"",
+							"description":"Cardholder \"T0\" Account Type Code",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"004",
+					"value":"000000031000",
+					"type":"",
+					"description":"Amount, Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"008",
+					"value":"0701100735",
+					"type":"",
+					"description":"Transmission Date and Time",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"0701",
+							"type":"",
+							"description":"Transmission Date",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"100735",
+							"type":"",
+							"description":"Transmission Time",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"010",
+					"value":"System Trace Audit Number",
+					"type":"",
+					"description":"000002",
+					"subElements":[]
+				},
+				{
+					"hostId":"012",
+					"value":"000000",
+					"type":"",
+					"description":"Time, Local Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"013",
+					"value":"000000031000",
+					"type":"",
+					"description":"Amount, Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"018",
+					"value":"0701100735",
+					"type":"",
+					"description":"Transmission Date and Time",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"0701",
+							"type":"",
+							"description":"Transmission Date",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"100735",
+							"type":"",
+							"description":"Transmission Time",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"019",
+					"value":"System Trace Audit Number",
+					"type":"",
+					"description":"000002",
+					"subElements":[]
+				},
+				{
+					"hostId":"020",
+					"value":"000000",
+					"type":"",
+					"description":"Time, Local Transaction",
+					"subElements":[]
+				}				
+			]
+		},
+		{
+        "mti":"0110",
+		"stream":"",
+		"status":"",
+		"value":"F0F1F0F0F23C4601A8E186080000000000000002F1F9F6F7F9F9F9F9F8F9F0F0F0F0F0F2F0F0F0F1F0F0F9F0F0F0F0F0F0F0F0F0F0F0F0F1F3F0F0F0F7F0F1F1F1F1F7F0F7F0F0F0F0F0F3F1F1F1F7F0F7F0F7F0F1F2F5F1F2F5F9F9F9F0F5F1F0F1F3F0F6F0F1F2F3F4F5F0F6F0F2F2F0F2F0F3F6F6F7F9F9F9F9F8F9F0F0F0F0F0F2F0F0F0F1F0C4F2F5F1F2F6F2F0F0F6F2F9F3F0F4F2F3F0F0F0F0F0F0F0F0F0F8F2F2F0F2F0F0F1F1F0F1F1F2F3F4F5F6F7F8F9F1F2F3F4F5F6C9C3C340D7D6E240E385A2A34040404040404040404040D7819989A2404040404040404040C6D9C1F0F1F0D9F6F1F0F5F1F1F0F0F0F9F7F8F0F2F0F0F0F4F0F9F7F8C4F0F0F0F0F0F0F0F0F0F1F0F0F1F4F05F2A020978820230008407A0000000043060950500008000009A031507019C01099F02060000000013009F03060000000001009F090200029F10120210A0800F220000000000000000000000FF9F1A0200569F1E0830323030313130319F26083777C3B0335FF8F69F2701809F33038020C89F34033F00019F3501229F360200279F3704027273299F530150F0F1F9F0F0F0F0F0F0F0F0F0F0F5F0F0F2F5F0F0F0F0F0F0F87FC5D4E5D9C5C67F",
+		"messageType":"RECEIVE",
+		"elements":
+			[
+				{
+					"hostId":"MTI",
+					"value":"0110",
+					"type":"",
+					"description":"Message Type Identifier",
+					"subElements":[]
+				},
+				{
+					"hostId":"BitMap",
+					"value":"F23C4641A8E19208",
+					"type":"",
+					"description":"Bit Map",
+					"subElements":[]
+				},
+				{
+					"hostId":"BitMap",
+					"value":"0000000000000002",
+					"type":"",
+					"description":"Bit Map",
+					"subElements":[]
+				},
+				{
+					"hostId":"002",
+					"value":"6799978900000020023",
+					"type":"",
+					"description":"Primary Account Number (PAN)",
+					"subElements":[]
+				},
+				{
+					"hostId":"003",
+					"value":"010000",
+					"type":"",
+					"description":"Processing Code",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"02",
+							"type":"",
+							"description":"Cardholder Transaction Type Code",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"11",
+							"type":"",
+							"description":"Cardholder \"From\" Account Type Code",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.003",
+							"value":"00",
+							"type":"",
+							"description":"Cardholder \"T0\" Account Type Code",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"004",
+					"value":"000000031000",
+					"type":"",
+					"description":"Amount, Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"008",
+					"value":"0701100735",
+					"type":"",
+					"description":"Transmission Date and Time",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"0701",
+							"type":"",
+							"description":"Transmission Date",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"100735",
+							"type":"",
+							"description":"Transmission Time",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"010",
+					"value":"System Trace Audit Number",
+					"type":"",
+					"description":"000002",
+					"subElements":[]
+				},
+				{
+					"hostId":"012",
+					"value":"000000",
+					"type":"",
+					"description":"Time, Local Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"013",
+					"value":"000000031000",
+					"type":"",
+					"description":"Amount, Transaction",
+					"subElements":[]
+				},
+				{
+					"hostId":"018",
+					"value":"0701100735",
+					"type":"",
+					"description":"Transmission Date and Time",
+					"subElements":
+					[
+						{
+							"hostId":"SE.001",
+							"value":"0701",
+							"type":"",
+							"description":"Transmission Date",
+							"subElements":[]
+						},
+						{
+							"hostId":"SE.002",
+							"value":"100735",
+							"type":"",
+							"description":"Transmission Time",
+							"subElements":[]
+						}
+					]
+				},
+				{
+					"hostId":"019",
+					"value":"System Trace Audit Number",
+					"type":"",
+					"description":"000002",
+					"subElements":[]
+				},
+				{
+					"hostId":"020",
+					"value":"000000",
+					"type":"",
+					"description":"Time, Local Transaction",
+					"subElements":[]
+				}				
+			]
+		}
+	]
+} 
